@@ -4,8 +4,7 @@
 
 import math
 
-def square_root(a: 9
-) -> float:
+def square_root(a: float) -> float:
     return 0.0
 
 
