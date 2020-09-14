@@ -8,7 +8,6 @@ def square_root(a: float) -> float:
     return 0.0
 
 
-
 def square(a: float) -> float:
     return 0.0
 
