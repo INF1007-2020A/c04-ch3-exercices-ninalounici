@@ -2,7 +2,7 @@ test_average (__main__.TestExercice) ... ok
 test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... FAIL
-test_to_degrees (__main__.TestExercice) ... FAIL
+test_to_degrees (__main__.TestExercice) ... ok
 test_to_farenheit (__main__.TestExercice) ... FAIL
 test_to_radians (__main__.TestExercice) ... FAIL
 
@@ -20,20 +20,6 @@ First differing element 0:
 
 - [0.0, 0.0, 0.0]
 + [-17.77777777777778, -31.666666666666664, 232.77777777777777] : Mauvais calcul de farenheit -> celsius
-
-======================================================================
-FAIL: test_to_degrees (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 86, in test_to_degrees
-    'Mauvais calcul de radians -> degres'
-AssertionError: Lists differ: [(79.0980174562859, 35.493541569878744, 29.612494192724625), [178 chars]998)] != [(79.0980174562859, 5.881047377154118, 29.612494192724625), ([179 chars]998)]
-
-First differing element 0:
-(79.0980174562859, 35.493541569878744, 29.612494192724625)
-(79.0980174562859, 5.881047377154118, 29.612494192724625)
-
-Diff is 856 characters long. Set self.maxDiff to None to see it. : Mauvais calcul de radians -> degres
 
 ======================================================================
 FAIL: test_to_farenheit (__main__.TestExercice)
@@ -69,6 +55,6 @@ First differing element 0:
 -  7.941277185395066] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.005s
+Ran 7 tests in 0.001s
 
-FAILED (failures=4)
+FAILED (failures=3)
