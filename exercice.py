@@ -23,7 +23,7 @@ def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float
 def to_degrees(angle_rads: float) -> tuple:
     degrees = math.degrees(angle_rads)
     minutes = (degrees % 1)*60
-    secondes = 
+    secondes = (minutes %1)*
     return 0.0, 0.0, 0.0
 
 
